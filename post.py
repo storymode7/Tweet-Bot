@@ -51,7 +51,7 @@ def setUpdate(urlfile):
  #   api.PostUpdate(update)
 
 def printUpdate(update):
-    message='Tweet Content is very long'
+    message='Tweet Content'
     screen_width = 79
     seperator_variable_length=floor((screen_width - len(message))/2)
     seperator_variable='-'

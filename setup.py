@@ -6,6 +6,7 @@ setup(
         py_modules=['post'],
         install_requires=[
             'Click',
+            'python-twitter'
         ],
         entry_points='''
             [console_scripts]
