@@ -20,6 +20,11 @@ Description
 ~~~
 
 ## Installing
-
+Type the following command in the bot's directory. 
 `pip install .`
 
+## Credentials File
+There is a template credentials file that will serve you just fine.
+To use it rename it to `credentials.py` and add the tokens after 
+registering your twitter app. 
+These will be imported when you run the command.
