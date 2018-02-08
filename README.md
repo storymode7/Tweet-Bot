@@ -5,7 +5,7 @@ A twitter bot that tweets urls and their descriptions from a file
 ## Usage 
 
 ~~~bash
-pyTwurl \<file containing content to be tweeted\>
+pyTwurl <file containing content to be tweeted>
 ~~~
 
 ## File's format
