@@ -5,6 +5,7 @@ from credentials import tokens
 
 api = twitter.Api(tokens['consumer_key'], tokens['consumer_secret'],
                   tokens['access_token_key'], tokens['access_token_secret'])
+)
 
 
 @click.command()
@@ -58,8 +59,8 @@ def setUpdate(urlfile):
         update += line
         line = urlfile.readline()
     with open('.urlFilePosition', 'w') as position:
-        position.write(str(urlfile.tell()-len(line)))
         #Position in file - string we just read
+        position.write(str(urlfile.tell()-len(line)))
     update = update.strip()
     printUpdate(update)  # For testing what would be printed
     #  api.PostUpdate(update)
